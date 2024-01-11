@@ -1,0 +1,41 @@
+main {
+    background-color: #FFFEFE;
+    font-family: Open Sans, sans-serif;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49.03px;
+}
+
+p {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+}
+
+a {
+    color: #089FE0;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+}
+
+label {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+}
+
+::placeholder {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}
