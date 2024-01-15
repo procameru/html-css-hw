@@ -10,12 +10,13 @@ body {
     padding: 0;
 }
 
+
 .headerList {
     line-height: 21.09px;
     font-size: 18px;
     list-style: none;
     margin: 10px 180px;
-    padding: 0px;
+    padding: 72px 0 0 0;
 }
 
 .headerList a {
@@ -64,15 +65,18 @@ h1 {
 .mainText1 {
     font-size: 20px;
     line-height: 32px;
+    margin: 0 180px 30px 180px;
 }
 
 .mainText2 {
     font-size: 16px;
     line-height: 30px;
+    margin: 0 180px 103px 180px;
 }
 
 .copyright {
     text-align: 16px;
     line-height: 28px;
     opacity: 60%;
+    margin: 0 180px 77px 180px;
 }
