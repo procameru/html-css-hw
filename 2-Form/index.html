@@ -8,27 +8,29 @@
 </head>
 <body>
     <main>
-        <form action="#">
-            <div>
+        <form action="#" class="form">
+            <div class="formEnter">
                 <h1>Регистрация</h1>
                 <p>Уже есть аккаунт? <a href="#">Войти</a></p>
             </div>
-            <div>
-                <input type="text" name="company" id="company" placeholder="Название компании" required>
-            </div>
-            <div>
-                <input type="text" name="name" id="name" placeholder="Имя" required>
-                <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
-            </div>
-            <div>
-                <input type="email" name="email" id="email" placeholder="E-mail" required>
-            </div>
-            <div>
-                <button type="submit">Зарегистрироваться</button>
-            </div>
-            <div>
-                <input type="checkbox" name="agree" id="agree" checked>
-                <label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+            <div class="formData">    
+                <div>
+                    <input type="text" name="company" id="company" placeholder="Название компании" required>
+                </div>
+                <div class="formDataName">
+                    <input type="text" name="name" id="name" placeholder="Имя" required>
+                    <input type="text" name="surname" id="surname" placeholder="Фамилия" required>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                </div>
+                <div>
+                    <button type="submit">Зарегистрироваться</button>
+                </div>
+                <div>
+                    <input type="checkbox" name="agree" id="agree" checked>
+                    <label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+                </div>
             </div>
         </form>
     </main>
